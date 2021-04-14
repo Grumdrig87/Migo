@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+	<title>Migo</title>
+	<meta name="keywords" content="Migo" />
+    <meta name="description" content="Migo">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+	<!-- OG Tags -->
+	<meta property="og:title" content="Migo" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="img/logo.png" />
+    <meta property="og:site_name" content="Migo">
+    <meta property="og:description" content="Migo" />
+    <!-- link CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <div class="black-scr" data-blkscr></div>
+    <div class="wrap">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                    <div class="header__top-r">
+                        <div class="header__top-adress">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#edf1f4"  xmlns:v="https://vecta.io/nano"><path d="M16.639 3.477A7.96 7.96 0 0 0 10 0a7.96 7.96 0 0 0-6.638 3.477c-1.519 2.199-1.87 4.982-.94 7.441.249.672.644 1.324 1.172 1.936l5.874 6.9a.7.7 0 0 0 1.065 0l5.873-6.898c.531-.615.925-1.267 1.172-1.933.932-2.464.581-5.247-.939-7.446zm-.371 6.956c-.19.514-.501 1.022-.922 1.511L10 18.222l-5.345-6.278c-.421-.488-.732-.997-.924-1.515-.769-2.034-.477-4.335.781-6.156A6.58 6.58 0 0 1 10 1.399a6.58 6.58 0 0 1 5.488 2.874c1.258 1.821 1.55 4.122.78 6.161z"/><path d="M10 4.149a3.92 3.92 0 0 0-3.916 3.916A3.92 3.92 0 0 0 10 11.981a3.92 3.92 0 0 0 3.916-3.916A3.92 3.92 0 0 0 10 4.149zm0 6.434a2.52 2.52 0 0 1-2.517-2.517A2.52 2.52 0 0 1 10 5.548a2.52 2.52 0 0 1 2.518 2.518A2.52 2.52 0 0 1 10 10.583z"/></svg>
+                            <div class="header__top-adrtxt">
+                                <span>
+                                    Ваш адрес:
+                                </span>
+                                <span class="your-addr">
+                                    Оренбургская область
+                                </span>
+                            </div>
+                        </div>
+                        <a href="#" class="top-btn login-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#edf1f4"  xmlns:v="https://vecta.io/nano"><path d="M6.667 0c-2.206 0-4 1.794-4 4v1.333a3.98 3.98 0 0 0 .681 2.231C1.351 8.716 0 10.867 0 13.333V14c0 1.103.897 2 2 2h6c.369 0 .667-.299.667-.667s-.298-.667-.667-.667H2A.67.67 0 0 1 1.333 14v-.667c0-2.093 1.212-3.907 2.971-4.779a3.98 3.98 0 0 0 2.363.779c2.206 0 4-1.794 4-4V4c0-2.206-1.794-4-4-4zm2.667 5.333A2.67 2.67 0 0 1 6.667 8 2.67 2.67 0 0 1 4 5.333V4a2.67 2.67 0 0 1 2.667-2.667A2.67 2.67 0 0 1 9.333 4v1.333h0zm5.999 6h-2.667V8.667c0-.368-.298-.667-.667-.667s-.667.299-.667.667v2.667H8.667c-.369 0-.667.299-.667.667s.298.667.667.667h2.667v2.667c0 .368.298.667.667.667s.667-.299.667-.667v-2.667h2.667c.369 0 .667-.299.667-.667s-.298-.667-.667-.667z"/></svg>
+                            <span>
+                                Вход / Регистрация
+                            </span>
+                        </a>
+                        <a href="#" class="top-btn add-btn">
+                            <span class="add-btn-help">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"  xmlns:v="https://vecta.io/nano"><path d="M8 0a8.01 8.01 0 0 0-8 8 8.01 8.01 0 0 0 8 8 8.01 8.01 0 0 0 8-8 8.01 8.01 0 0 0-8-8zm0 14.761A6.77 6.77 0 0 1 1.239 8 6.77 6.77 0 0 1 8 1.239 6.77 6.77 0 0 1 14.761 8 6.77 6.77 0 0 1 8 14.761zm3.098-7.436H8.62V4.846a.62.62 0 1 0-1.24 0v2.479H4.902a.62.62 0 0 0 0 1.24H7.38v2.479a.62.62 0 1 0 1.24 0v-2.48h2.479a.62.62 0 1 0 0-1.24z"/></svg>
+                            </span>
+                            <span>
+                                Разместить объявление
+                            </span>
+                        </a>
+                    </div>
+                    <div class="menu_btn" data-burger>
+                        <div class="bar" data-id="bar"></div>
+                        <div class="bar" data-id="bar"></div>
+                        <div class="bar" data-id="bar"></div>
+                    </div>
+                </div>
+                <div class="header__bott">
+                    <nav class="header__nav" data-nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Автомобили
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Спецтранспорт
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Мото
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Аренда
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Заявки аренды
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Запчасти и шины
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Отзывы
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Дилерам
+                                </a>
+                            </li>
+                            <li class="more">
+                                <a href="#">
+                                    Смотеть ещё
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <footer class="footer">
+            <div class="container">
+
+            </div>
+        </footer>
+    </div>
+
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/slick/slick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
