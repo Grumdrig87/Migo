@@ -6,20 +6,27 @@ jQuery(document).ready(function($) {
 //   });
 
   //slider
-//   if (jQuery('[data-writers]').length > 0) {
-//       $('[data-writers]').slick({
-//           dots: true,
-//           speed: 300,
-//           slidesToShow: 2,
-//           responsive: [{
-//               breakpoint: 768,
-//               settings: {
-//                   slidesToShow: 1
-//               }
-//           }, ]
-//       });
-//   }
+  if (jQuery('[data-unic]').length > 0) {
+      $('[data-unic]').slick({
+          dots: false,
+          arrows: false,
+          speed: 300,
+          slidesToShow: 5,
+          infinite: true,
+          centerMode: true,
+          variableWidth: true
+          // responsive: [{
+          //     breakpoint: 768,
+          //     settings: {
+          //         slidesToShow: 1
+          //     }
+          // }, ]
+      });
+  }
   
+  $('[data-izb]').click(function() {
+    $(this).toggleClass('active')
+  })
   // faq
 //   if (jQuery('[data-faq]').length > 0) {
 //       $('[data-faq]').click(function() {
